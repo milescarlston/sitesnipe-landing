@@ -19,6 +19,16 @@ export const metadata: Metadata = {
   title: "SiteSnipe — Find Leads. Build Sites. Close Deals.",
   description:
     "Find local businesses without websites and sell them one. SiteSnipe gives you the leads, builds the site, and arms you with data to close the deal.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
