@@ -189,4 +189,5 @@
   .math-grid { grid-template-columns: 1fr; }
   .proof-bar { flex-direction: column; gap: 24px; }
   .hero h1 { letter-spacing: -1px; }
+  .feature-visual { overflow-x: auto; }
 }
